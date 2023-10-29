@@ -1,3 +1,16 @@
-div {
-  background-color: aqua;
+
+@font-face {
+    font-family: "alsc";
+    src: url(./assets/fonts/alsc);
+}
+
+body {
+    background: url(./assets/images/bg1.jpg) center/cover;
+    min-height: 100vh; /* vh : taille de l'ecran.  ctrl slash pour commenter*/
+}
+.container h1 {
+    text-align: center;
+    font-family: alsc;
+    letter-spacing: 5px;
+    font-size: 2.5rem; /* 1rem = 16px*/
 }
